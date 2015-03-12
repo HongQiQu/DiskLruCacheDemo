@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
+              android:gravity="center_horizontal"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
@@ -9,5 +10,21 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MainActivity"
             />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="写缓存"
+            android:onClick="onClick"
+            android:id="@+id/write_cache_btn"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="读缓存"
+            android:onClick="onClick"
+            android:id="@+id/read_chache_btn"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/preview_iv"/>
 </LinearLayout>
 
