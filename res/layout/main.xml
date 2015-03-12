@@ -13,13 +13,13 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="写缓存"
+            android:text="写文件"
             android:onClick="onClick"
             android:id="@+id/write_cache_btn"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="读缓存"
+            android:text="读文件"
             android:onClick="onClick"
             android:id="@+id/read_chache_btn"/>
     <ImageView
